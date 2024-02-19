@@ -40,12 +40,12 @@
         "esri/core/reactiveUtils"
       ], function (esriConfig, Map, MapView, Graphic, geometryEngine, Search, locator, reactiveUtils) {
 
-        const authentication = arcgisRest.ApiKeyManager.fromKey("YOUR API KEY");
+        const authentication = arcgisRest.ApiKeyManager.fromKey("AAPK7ea8e38f6b4b4f969ab170c41c01634akao_m4e5gL3AyABug_bvD9dN7kbXw7BSISXg4Y558XYUVj59ej6DtByYM0Cms4Tz");
 
-        esriConfig.apiKey = "YOUR API KEY";
+        esriConfig.apiKey = "AAPK7ea8e38f6b4b4f969ab170c41c01634akao_m4e5gL3AyABug_bvD9dN7kbXw7BSISXg4Y558XYUVj59ej6DtByYM0Cms4Tz";
 
         const map = new Map({
-          basemap: "arcgis/navigation"
+          basemap: "streets"
         });
 
         const view = new MapView({
